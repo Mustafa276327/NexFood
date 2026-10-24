@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.NexFood" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/nex_primary</item>
+        <item name="colorOnPrimary">@color/nex_on_primary</item>
+        <item name="colorPrimaryContainer">@color/nex_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/nex_on_primary_container</item>
+        <item name="colorSecondary">@color/nex_secondary</item>
+        <item name="colorOnSecondary">@color/nex_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/nex_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/nex_on_secondary_container</item>
+        <item name="android:colorBackground">@color/nex_background</item>
+        <item name="colorSurface">@color/nex_surface</item>
+        <item name="colorOnSurface">@color/nex_on_surface</item>
+        <item name="colorSurfaceVariant">@color/nex_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/nex_on_surface_variant</item>
+        <item name="colorOutline">@color/nex_outline</item>
+        <item name="android:statusBarColor">@color/nex_background</item>
+        <item name="android:navigationBarColor">@color/nex_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="Theme.NexFood.Splash" parent="Theme.NexFood">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+
+    <style name="Widget.NexFood.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/nex_white</item>
+        <item name="strokeColor">@color/nex_outline_variant</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="TextAppearance.NexFood.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/nex_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.NexFood.IconButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/nex_primary</item>
+        <item name="backgroundTint">@color/nex_white</item>
+        <item name="strokeColor">@color/nex_outline_variant</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+    <style name="Widget.NexFood.IconButton.Filled" parent="Widget.NexFood.IconButton">
+        <item name="android:textColor">@color/nex_white</item>
+        <item name="backgroundTint">@color/nex_primary</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+</resources>

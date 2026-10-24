@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nex_primary">#E4572E</color>
+    <color name="nex_on_primary">#FFFFFF</color>
+    <color name="nex_primary_container">#FFDBCF</color>
+    <color name="nex_on_primary_container">#3B0A00</color>
+    <color name="nex_secondary">#3F7D4E</color>
+    <color name="nex_on_secondary">#FFFFFF</color>
+    <color name="nex_secondary_container">#C2EDCB</color>
+    <color name="nex_on_secondary_container">#00210C</color>
+    <color name="nex_background">#FFF8F4</color>
+    <color name="nex_on_background">#231A16</color>
+    <color name="nex_surface">#FFF8F4</color>
+    <color name="nex_on_surface">#231A16</color>
+    <color name="nex_surface_variant">#F4E4DC</color>
+    <color name="nex_on_surface_variant">#55433B</color>
+    <color name="nex_outline">#A08D84</color>
+    <color name="nex_outline_variant">#E4D3CA</color>
+    <color name="nex_chip_bg">#F6E8E0</color>
+    <color name="nex_emoji_bg">#FFF1E8</color>
+    <color name="nex_white">#FFFFFF</color>
+    <color name="nex_black">#000000</color>
+    <color name="nex_success">#2E7D32</color>
+</resources>

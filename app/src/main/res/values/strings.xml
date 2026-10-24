@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NexFood</string>
+    <string name="app_tagline">Bugün ne yesek?</string>
+    <string name="menu_title">Menü</string>
+    <string name="search_hint">Yemek ara…</string>
+    <string name="cart">Sepet</string>
+    <string name="cart_header">Sepet (%1$d)</string>
+    <string name="cart_title">Sepetim</string>
+    <string name="detail_title">Ürün Detayı</string>
+    <string name="cart_empty">Sepetin boş görünüyor.\nMenüden lezzetli bir şeyler ekle!</string>
+    <string name="total">Toplam</string>
+    <string name="go_to_cart">Sepeti Gör</string>
+    <string name="add_to_cart">Sepete Ekle</string>
+    <string name="added_to_cart">Sepete eklendi</string>
+    <string name="checkout">Siparişi Tamamla</string>
+    <string name="checkout_title">Siparişi onayla</string>
+    <string name="checkout_message">Toplam %1$s tutarındaki siparişin hazırlanmaya başlasın mı?</string>
+    <string name="checkout_yes">Onayla</string>
+    <string name="checkout_no">Vazgeç</string>
+    <string name="order_success_title">Sipariş alındı!</string>
+    <string name="order_success_message">Siparişin mutfakta hazırlanıyor. Afiyet olsun!</string>
+    <string name="ok">Tamam</string>
+    <string name="empty_menu">Aramanla eşleşen yemek bulunamadı.</string>
+    <string name="remove">Kaldır</string>
+    <string name="back">Geri</string>
+    <string name="detail_about">Açıklama</string>
+    <string name="detail_ingredients">İçindekiler</string>
+    <string name="detail_add">Sepete Ekle · %1$s</string>
+    <string name="qty">Adet</string>
+    <string name="decrease">Azalt</string>
+    <string name="increase">Arttır</string>
+    <string name="item_count">%1$d ürün</string>
+    <string name="cart_items">%1$d ürün · %2$s</string>
+</resources>

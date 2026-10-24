@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.hprof
+
+# İmza dosyaları (asla commit edilmez)
+key.properties
+*.keystore
+*.jks
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+
+# Loglar
+*.log
