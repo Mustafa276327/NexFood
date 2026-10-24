@@ -3,7 +3,6 @@ package com.nexfood.app.ui
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.button.MaterialButton
@@ -46,7 +45,7 @@ class CartAdapter(
         private val lineTotal: TextView = view.findViewById(R.id.tvLineTotal)
         private val plus: MaterialButton = view.findViewById(R.id.btnPlus)
         private val minus: MaterialButton = view.findViewById(R.id.btnMinus)
-        private val remove: ImageButton = view.findViewById(R.id.btnRemove)
+        private val remove: MaterialButton = view.findViewById(R.id.btnRemove)
 
         fun bind(line: CartLine) {
             emoji.text = line.food.emoji
